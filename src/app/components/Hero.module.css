@@ -1,0 +1,42 @@
+.heroSection {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.heroVideo {
+  width: 100%;
+  height: 130vh; /* Reduced height */
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0.65;
+  margin-bottom: 35px;
+}
+
+/* .videoOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+} */
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  font-weight: 400; /* reduced boldness */
+}
+
+
+
+@media (max-width: 768px) {
+  .heroVideo {
+    height: 40vh; /* Smaller height for mobile */
+  }
+}

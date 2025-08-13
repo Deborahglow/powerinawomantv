@@ -1,0 +1,41 @@
+/* Navbar background and padding */
+.navbarCustom {
+  background-color: white !important;
+  padding: 10px 16px;
+}
+
+/* Logo size */
+.logo {
+  height: auto;
+  width: auto;
+  max-height: 60px;
+}
+
+/* Toggle button custom style */
+.customToggler {
+  background-color: #ff4f8b;
+  border: 2px solid white !important;
+}
+
+/* .customToggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30'
+  xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2'
+  stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'
+  /%3E%3C/svg%3E");
+} */
+
+/* Nav links */
+.navLink {
+  color: black !important;
+  padding: 8px 10px !important;
+  transition: all 0.3s ease;
+  font-size: 30px;
+}
+
+.navLink:hover {
+  color: #df4176 !important;
+  /* text-decoration: underline; */
+  text-decoration-color: #ff4f8b;
+  text-decoration-thickness: 2px;
+  font-weight: bold;
+}

@@ -1,0 +1,67 @@
+.footer {
+  background-color: #232222; /* Replace with your Know More CTA color */
+  color: #fffdfd;
+  padding: 45px 0;
+}
+
+.footer-about p {
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.footer-logo {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.footerm h5,
+.footer-contact h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footerm ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerm ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footerm ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footerm ul li a:hover {
+  text-decoration: underline;
+}
+
+.footerc p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footerr {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 15px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.footerr a {
+  color: #ffffff;
+}
+
+.footerr a:hover {
+  text-decoration: underline;
+}
