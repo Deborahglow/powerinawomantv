@@ -1,81 +1,104 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
-// import styles from "./About.module.css";
+import { Button } from "react-bootstrap";
 
 export default function About() {
   return (
-    <section id="about" className="container py-5" style={{ marginTop: "4rem" }}>
-      <div className="row align-items-center">
-        
-        {/* Left Column: Text + CTA */}
-        <motion.div
-          className="col-md-6"
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ type: "spring", stiffness: 100, damping: 10, duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <h4 className="fw-bold mb-3" style={{ color: "#e63a6f",}}>What is the International African Women Award?</h4>
-          <p>
-            International African Women Awards acknowledges the impact African women are making around the world; the award recognizes them for their tremendous efforts to alleviate sufferings, promote societal growth, causing significant changes within their sphere of influence and motivates gender equality acceptance due to their outstanding works. The award showcases women who have braved the odds, crossed every known barrier to become role models and world changers. All awards are significant and highlights the high impact contributions and achievements made by African women across the world.
-          </p>
-          <h4 className="fw-bold mb-3" style={{ color: "#e63a6f",}}>What Is The Award Process Like?</h4>
-          <p>
-            The international African women awards is decided by a public nomination across the world; a panel collates all the nominated names, confirming each data and achievements. After which a verified letter seeking consent to publish biography online for the final vote is sent to nominated persons. This final collation will be done by our international judges cut across the globe.
+    <section id="about" className="py-5 bg-white">
+      <div className="container">
+        <h2 className="text-center mb-5 fw-bold">Who We Are</h2>
+        <div className="row align-items-center">
+          {/* Left Side - Text & Cards */}
+          <div className="col-md-6">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="mb-4"
+            >
+              <div className="card shadow border-0 p-4">
+                <h4 className="fw-bold">Power in a Woman Organization</h4>
+                <p>
+                  Power in a Woman is a non governmental organisation that is dedicated to empowering women and the girl child, supporting and advocating for women.
+                </p>
+                <Button
+                href="#piaw"
+                  style={{
+                  backgroundColor: "#ff4b93",
+                  color: "white",
+                  fontWeight: "bolder",
+                  border: "none",
+                  padding: "10px 20px",
+                  borderRadius: "50px",
+                  transition: "0.3s",
+              }}
+              onMouseOver={(e) => {
+              e.target.style.color = "#ff4b93";
+              e.target.style.backgroundColor = "#d63384";
+              }}
+              onMouseOut={(e) => {
+              e.target.style.color = "#d63384";
+              e.target.style.backgroundColor = "#ff4b93";
+              }}
+            >
+              See How We Do It
+          </Button>
+              </div>
+            </motion.div>
 
-            The award is in various categories and it cuts across the whole of Africa and African’s living and working in diaspora.
-            3 persons each will be recognized in each category and an award presented to winners at the end of the process.
-          </p>
-          <h4 className="fw-bold mb-3" style={{ color: "#e63a6f",}}>Public Votes</h4>
-          <p>
-            The public nominations are held in consideration with the award requirements before the nominated can win. This criteria’s are online and they form the yard stick to ascertain who qualifies for the life time achievements awards.
-          </p>
-          <Link href="#contact" scroll={true}>
-        <button className="learn-more-btn">Learn More</button>
-      </Link>
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <div className="card shadow border-0 p-4">
+                <h4 className="fw-bold">IAWA Award</h4>
+                <p>
+                  IAWA is the award giving arm of PIAW vision that highlights high impact women that have become role models to the younger generation, change agents that inspire other women for excellence and also showcase endless possibilities for women through their achievements.
+                </p>
+                <Button
+                href="#iawa"
+                  style={{
+                  backgroundColor: "#ff4b93",
+                  color: "white",
+                  fontWeight: "bolder",
+                  border: "none",
+                  padding: "10px 20px",
+                  borderRadius: "50px",
+                  transition: "0.3s",
+                }}
+                onMouseOver={(e) => {
+                e.target.style.color = "#ff4b93";
+                e.target.style.backgroundColor = "#d63384";
+                }}
+                onMouseOut={(e) => {
+                e.target.style.color = "#d63384";
+                e.target.style.backgroundColor = "#ff4b93";
+                }}
+          >
+            Know More
+          </Button>
 
-      <style jsx>{`
-        .about-section {
-          text-align: center;
-          padding: 40px;
-        }
+              </div>
+            </motion.div>
+          </div>
 
-        .learn-more-btn {
-          background-color: #ff4f81;
-          color: white;
-          padding: 10px 20px;
-          border: none;
-          border-radius: 50px;
-          cursor: pointer;
-          font-size: 16px;
-          transition: background-color 0.3s ease;
-        }
+          {/* Right Side - Image */}
+          <div className="col-md-6 text-center">
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            >
+              <Image src="/images/reallogo.jpg" alt="About" width={500} height={500} />
 
-        .learn-more-btn:hover {
-          color: #e63a6f";
-        }
-      `}</style>
-        </motion.div>
-
-        {/* Right Column: Image */}
-        <motion.div
-          className="col-md-6 text-center"
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ type: "spring", stiffness: 100, damping: 10, duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true }}
-        >
-          <Image
-            src="/images/reallogo.jpg" // Change to your image path
-            alt="About Us"
-            width={700}
-            height={600}
-            className="img-fluid rounded shadow"
-          />
-        </motion.div>
-
+            </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

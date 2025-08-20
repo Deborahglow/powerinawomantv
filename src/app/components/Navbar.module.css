@@ -1,19 +1,19 @@
 /* Navbar background and padding */
 .navbarCustom {
   background-color: white !important;
-  padding: 10px 16px;
+  padding: 5px 10px;
 }
 
 /* Logo size */
 .logo {
   height: auto;
   width: auto;
-  max-height: 60px;
+  max-height: 35px;
 }
 
 /* Toggle button custom style */
 .customToggler {
-  background-color: #ff4f8b;
+  background-color: #df4176;
   border: 2px solid white !important;
 }
 
@@ -29,7 +29,7 @@
   color: black !important;
   padding: 8px 10px !important;
   transition: all 0.3s ease;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .navLink:hover {

@@ -5,7 +5,7 @@
 }
 
 .footer-about p {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -34,7 +34,7 @@
 
 .footerm ul li {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .footerm ul li a {
@@ -47,15 +47,16 @@
 }
 
 .footerc p {
+  margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .footerr {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   padding-top: 15px;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .footerr a {

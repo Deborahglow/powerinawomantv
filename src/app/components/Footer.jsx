@@ -9,19 +9,18 @@ export default function Footer() {
       <Container>
         <Row>
           {/* About */}
-          {/* <Col md={4} className={styles.heroSection}> */}
+          <Col md={4} className={styles.heroSection}>
             {/* <img src="/images/reallogo.jpg" alt="NGO Awards Logo" className="footer-logo" /> */}
-            {/* <p>
-              The IAWA nomination team Awards to recognize and celebrate 
-              outstanding NGOs contributing to sustainable development.
-            </p> */}
+            <p>
+              Power In A Woman Organization is building a legacy for women that will live lasting impact in the women lives through different generations.
+            </p>
             {/* <div className="social-icons">
               <FaFacebookF />
               <FaTwitter />
               <FaLinkedinIn />
               <FaInstagram />
             </div> */}
-          {/* </Col> */}
+          </Col>
 
           {/* Menu */}
           <Col md={6} className={styles.footerm}>
@@ -29,24 +28,23 @@ export default function Footer() {
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#nomineecategory">Nomination Category</a></li>
+              <li><a href="#piaw">PIAW</a></li>
+              <li><a href="#iawa">IAWA</a></li>
               <li><a href="#contact">Contact</a></li>
-              {/* <li><a href="#contact">Contact</a></li> */}
             </ul>
           </Col>
 
           {/* Contact */}
           <Col md={6} className={styles.footerc}>
-            <h5>Contacts</h5>
-            <p>FO1, Kubwa, Abuja, Nigeria.</p>
-            {/* <p>+254 729 782 688</p> */}
-            <p>iawa@gmail.com</p>
+            <h5>Contact Details</h5>
+            <p>Nepa Road, Kubwa-Abuja, Nigeria.</p>
+            <p>powerinawomantv@gmail.com</p>
           </Col>
         </Row>
 
         <Row className={styles.footerr}>
           <Col className="text-center">
-            <p>IAWAAwards © 2025 All Rights Reserved</p>
+            <p>PIAW | IAWAAWARD © 2025 All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
