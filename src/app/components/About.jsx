@@ -94,7 +94,8 @@ export default function About() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <Image src="/images/reallogo.jpg" alt="About" width={500} height={500} />
+              <a href="https://im.ge/i/reallogo.JpWVR6"><img src="https://i.im.ge/2025/08/21/JpWVR6.reallogo.jpeg" alt="reallogo" border="0"></img></a>
+              
 
             </motion.div>
           </div>

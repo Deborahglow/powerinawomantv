@@ -9,22 +9,22 @@ export default function PiawSection() {
 
   const images = [
     {
-      src: "/images/schoolchild2.avif",
+      src: "/images/schoolchild2.jpg",
       alt: "Women in Leadership",
       text: "We advocate and train the girl child and we have a vision to build an all girls schools so that every girl child will have the priviledge of education."
     },
     {
-      src: "/images/training.jpg",
+      src:  "/images/informal.jpg",
       alt: "Team Collaboration",
       text: "We organise informal trainings for women to empower them both financially and mentally so as to help them start up businesses."
     },
     {
-      src: "/images/homeless.avif",
+      src: "/images/homeless.jpg",
       alt: "Community Support",
       text: "Providing homes for young pregnant and homeless girls is also our vision."
     },
     {
-      src: "/images/abusedwoman.avif",
+      src: "/images/abusedwoman.jpg",
       alt: "Community Support",
       text: "Abused women are sheltered to prevent further emotional, mental and physical damages through our abuse women shelter center."
     }
