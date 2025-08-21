@@ -6,10 +6,10 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Export static HTML for GitHub Pages
+  // output: 'export', // Export static HTML for GitHub Pages
   images: { unoptimized: true },
-  basePath: '/powerinawomantv',
-  assetPrefix: '/powerinawomantv/',
+  // basePath: '/powerinawomantv',
+  // assetPrefix: '/powerinawomantv/',
 };
 
 export default nextConfig;
