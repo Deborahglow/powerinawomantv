@@ -37,7 +37,7 @@ export default function Iawa() {
 
         <Row className="g-4">
           {awards.map((award) => (
-            <Col key={awards.id} xs={12} sm={6} md={3}>
+            <Col key={award.id} xs={12} sm={6} md={3}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}

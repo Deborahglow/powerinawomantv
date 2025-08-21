@@ -9,7 +9,7 @@ export default function Footer() {
       <Container>
         <Row>
           {/* About */}
-          <Col md={4} className={styles.heroSection}>
+          <Col md={12} className={styles.heroSection}>
             {/* <img src="/images/reallogo.jpg" alt="NGO Awards Logo" className="footer-logo" /> */}
             <p>
               Power In A Woman Organization is building a legacy for women that will live lasting impact in the women lives through different generations.
