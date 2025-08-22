@@ -40,19 +40,21 @@ export default function CustomNavbar() {
         {/* Logo */}
         <Link href="/" className="navbar-brand">
           <Image
-            src="/images/piaw.jpg" // Place logo in public folder
-            alt="NGO Logo"
-            width={35}
-            height={35}
+            src="https://i.im.ge/2025/08/22/JJZdoD.1755818770202.jpeg" // Place logo in public folder
+            alt="IAWA Logo"
+            width={40}
+            height={40}
+            unoptimized
             className={styles.logo}
           />
         </Link>
         <Link href="/" className="navbar-brand">
           <Image
-            src="/images/reallogo.jpg" // Place logo in public folder
-            alt="NGO Logo"
+            src="https://i.im.ge/2025/08/22/JJZPyG.piaw.jpeg" // Place logo in public folder
+            alt="PIAW Logo"
             width={35}
             height={35}
+            unoptimized
             className={styles.logo}
           />
         </Link>

@@ -7,6 +7,7 @@ export default function HeroSection() {
   const texts = [
     "Empowering Women.",
     "Recognizing High-Impact Women.",
+    "Revealing The Glory Of The Woman.",
     "Celebrating The Power In The Woman."
   ];
 
@@ -34,6 +35,7 @@ export default function HeroSection() {
   }, [charIndex, textIndex]);
 
   return (
+    <section id="home">
     <motion.section
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
@@ -63,5 +65,6 @@ export default function HeroSection() {
         }
       `}</style>
     </motion.section>
+    </section>
   );
 }
