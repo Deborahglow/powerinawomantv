@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Image from "next/image";
 
-export default function PiawSection() {
+export default function Piaw() {
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -28,6 +28,11 @@ export default function PiawSection() {
       src: "https://i.im.ge/2025/08/22/JJo44G.abusedwoman.jpeg",
       alt: "Community Support",
       text: "Abused women are sheltered to prevent further emotional, mental and physical damages through our abuse women shelter center."
+    },
+    {
+      src: "https://i.im.ge/2025/08/25/JeixET.girlscon.jpeg",
+      alt: "Community Support",
+      text: "Girl child conference."
     }
   ];
 
@@ -47,7 +52,7 @@ export default function PiawSection() {
       id="piaw"
       ref={sectionRef}
       style={{
-        padding: "60px 0",
+        padding: "50px 0",
         overflow: "hidden",
         backgroundColor: "#ffffff",
       }}

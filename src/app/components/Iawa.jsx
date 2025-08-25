@@ -10,6 +10,7 @@ export default function Iawa() {
     { id: 3, title: "Creatives and Entrepreneur Award", image: "https://i.im.ge/2025/08/22/JJXkCX.iawagold.jpeg" },
     { id: 4, title: "Politics and Humanitarian Award", image: "https://i.im.ge/2025/08/22/JJXkCX.iawagold.jpeg" },
     { id: 5, title: "Religious Leaders Award", image: "https://i.im.ge/2025/08/22/JJXkCX.iawagold.jpeg" },
+    { id: 5, title: "Unsung Heroines Award", image: "https://i.im.ge/2025/08/22/JJXkCX.iawagold.jpeg" },
   ];
 
   return (
@@ -19,7 +20,7 @@ export default function Iawa() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
-        style={{ backgroundColor: "white", padding: "4rem 1rem" }}
+        style={{ backgroundColor: "white", padding: "2rem 1rem" }}
       >
         <Container>
           <h2

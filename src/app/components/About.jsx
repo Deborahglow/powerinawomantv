@@ -19,9 +19,9 @@ export default function About() {
               className="mb-4"
             >
               <div className="card shadow border-0 p-4">
-                <h4 className="fw-bold">Power in a Woman Organization</h4>
+                <h4 className="fw-bold">Power in a Woman TV Ministry</h4>
                 <p>
-                  Power in a Woman is a non governmental organisation that is dedicated to empowering women and the girl child, supporting and advocating for women.
+                  Power in a Woman Tv is a christian based ministry that is dedicated to empowering women and the girl child, revealing the glory that God has put on the woman, supporting and advocating for women.
                 </p>
                 <Button
                 href="#piaw"

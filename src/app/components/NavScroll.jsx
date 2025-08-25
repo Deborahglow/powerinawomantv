@@ -70,6 +70,7 @@ export default function CustomNavbar() {
           <Nav>
             <Nav.Link href="#home" className={styles.navLink}>Home</Nav.Link>
             <Nav.Link href="#about" className={styles.navLink}>About</Nav.Link>
+            <Nav.Link href="#gallery" className={styles.navLink}>Gallery</Nav.Link>
             <Nav.Link href="#piaw" className={styles.navLink}>PIAW</Nav.Link>
             <Nav.Link href="#iawa" className={styles.navLink}>IAWA</Nav.Link>
             <Nav.Link href="#contact" className={styles.navLink}>Contact</Nav.Link>
