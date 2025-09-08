@@ -95,8 +95,6 @@ export default function About() {
               viewport={{ once: true }}
             >
               <a href="https://im.ge/i/reallogo.JpWVR6"><img src="https://i.im.ge/2025/08/21/JpWVR6.reallogo.jpeg" alt="reallogo" border="0"></img></a>
-              
-
             </motion.div>
           </div>
         </div>
