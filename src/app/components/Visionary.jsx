@@ -9,14 +9,14 @@ const visionaries = [
   {
     id: 1,
     name: "Bishop Newman Livingstone",
-    role: "Power in a Woman is a mandate given to God's servant in 2009 to take the revelation of the power in a woman to the nations and the IAWA Awards vision was birthed in 2020 to celebrate high impact women who have risen in the cadar and embodies the power in a woman message",
-    img: "https://i.im.ge/2025/08/25/JeBROh.1756126584137.jpeg", // replace with your image link
+    role: "Power in a Woman is a mandate given to God's servant in July, 2004 to reveal the power, ability,purpose and potential of the woman in her home, society, nation and the world. The IAWA Awards vision was birthed in 2020 to celebrate high impact women who have risen in the cadar of success, broken glass ceilings and embodies the power in a woman message",
+    img: "https://i.im.ge/2025/08/25/JeBROh.1756126584137.jpeg", 
   },
   {
     id: 2,
     name: "Pastor Emily Newman",
     role: "She is the co-visionaire of Power in a Woman that embodies the strength of a woman",
-    img: "https://i.im.ge/2025/08/25/JeBoP8.1756126418221.jpeg", // replace with your image link
+    img: "https://i.im.ge/2025/08/25/JeBoP8.1756126418221.jpeg", 
   },
 ];
 

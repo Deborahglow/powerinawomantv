@@ -7,7 +7,6 @@ export default function Piaw() {
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
-  // ✅ Replace with your embedded image links
   const images = [
     {
       src: "https://i.im.ge/2025/08/22/JJoeya.schoolchild2.jpeg",
@@ -32,7 +31,7 @@ export default function Piaw() {
     {
       src: "https://i.im.ge/2025/08/25/JeixET.girlscon.jpeg",
       alt: "Community Support",
-      text: "Girl child conference."
+      text: "The girl child conference is the conference that exposes the girl child to her ability, potential, her purpose and future and the possibilities of bringing her value to the society."
     }
   ];
 
@@ -84,7 +83,6 @@ export default function Piaw() {
               alignItems: "center",
             }}
           >
-            {/* ✅ Image now loads from external link */}
             <Col md={6} xs={12} style={{ position: "relative" }}>
               <Image
                 src={item.src}
@@ -114,7 +112,12 @@ export default function Piaw() {
                   boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
                 }}
               >
-                <p style={{ marginBottom: "10px" }}>{item.text}</p>
+              <p style={{ marginBottom: "8px" }}>{item.text}</p> 
+              </div>
+            </Col>
+          </Row>
+        ))}
+                <div>
                 <Button
                   href="#contact"
                   style={{
@@ -154,10 +157,7 @@ export default function Piaw() {
                 >
                   Join our Team
                 </Button>
-              </div>
-            </Col>
-          </Row>
-        ))}
+                </div>
       </Container>
     </section>
   );
